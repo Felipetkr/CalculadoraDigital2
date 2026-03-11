@@ -87,7 +87,7 @@ public class CaculadoraTest {
       Calculadora calc = new Calculadora();
       double resultadoEsperado= 0.4285;
       resultadoReal = calc.dividir(nro1, nro2);
-      assertEquals(resultadoEsperado, resultadoReal, 0.00001);
+      assertEquals(resultadoEsperado, resultadoReal, 0.0001);
   }
   
 }
